@@ -1,0 +1,7 @@
+# CrystallChildrenMayCry plugin configuration
+
+# The damage multiplier for end crystal explosions
+damage-multiplier: 1.0
+
+permissions:
+  grant-bypass-command: "CrystallChildrenMayCry.grantBypass"

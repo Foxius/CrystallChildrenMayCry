@@ -1,0 +1,17 @@
+name: CrystallChildrenMayCry
+version: '${version}'
+main: com.saikonohack.crystallchildrenmaycry.CrystallChildrenMayCry
+api-version: '1.21'
+load: STARTUP
+commands:
+  grantBypass:
+    description: Grants the CrystallChildrenMayCry.bypass permission to a player.
+    usage: /grantBypass <player>
+
+permissions:
+  CrystallChildrenMayCry.grantBypass:
+    description: Allows a player to use the grantBypass command.
+    default: op
+  CrystallChildrenMayCry.bypass:
+    description: Allows a player to bypass item restrictions in the hotbar.
+    default: false
